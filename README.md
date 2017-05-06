@@ -1,4 +1,4 @@
-# DeepLearningModelsforMNIST
+# Deep Learning Models for MNIST
 Deep learning is very hot in many fields, although the computation process seems quite complex for non-professionals, fortunately many free platforms are available,   such as Tensorflow, MXNET, Pytorch. With those tools, it's convenient to focus on our models instead of writing codes to do back propagation calculation.
 
 In order to demonstrate how to design deep learning models using Tensorflow, based on some reference of others' work, I created some toy examples including fundamental linear model, fully connected deep neural network, convolutional neural network, (bi)recurrent neural network and generative adversial network and etc. 
