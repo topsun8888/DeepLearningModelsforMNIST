@@ -11,7 +11,7 @@ Generally, to leverage Tensorflow, we need four steps:
 - Train the model with feeding batches of data samples to the model
 - Validate and test the model with testing datasets
 
-Including:
+The models Including:
 - Linear model
 - Multi-layer deep neural network, fully connected
 - Convolutional neural network
@@ -20,4 +20,12 @@ Including:
 - Bidirectional recurrent neural network, LSTM cell, it works pretty well.
 - Generative adversarial network
 
+In addition, some methods are adopted to improve performances of classification, including:
+- Xavier Initialization
+- Different Optimizers
+- Decaying Learning Rate
+- Clipping Gradient and Values to avoid gradient explosion or nan values
+
 Using variable name to wrap those variables.
+
+The models were tested on Win10 desktop, with tensorflow-gpu 1.3 and nvidia GTX960.
